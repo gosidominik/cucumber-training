@@ -14,4 +14,4 @@ Feature: Simple calculator
   Scenario: Divide by zero
     Given I have a calculator
     When I call divideNumbers with 5 and 0
-    Then exception should be thrown
+    Then arithmeticexception should be thrown
